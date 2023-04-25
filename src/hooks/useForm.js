@@ -36,4 +36,4 @@ function useForm(initialValues, onSubmit) {
       handleSubmit,
       handleReset
     };
-  }
+};
