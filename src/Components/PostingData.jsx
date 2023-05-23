@@ -1,8 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import Loading from '../Components/Loading'
-import {useFetch} from '../hooks/useFetch';
-import {useForm} from '../hooks/useForm';
+import useForm from '../hooks/useForm';
 
 function PostingData() {
     

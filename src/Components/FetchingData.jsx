@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Loading from '../Components/Loading'
-import {useFetch} from '../hooks/useFetch';
+import useFetch  from '../hooks/useFetch';
 
 //Display a list of posts
 const FetchingData = () => {
@@ -16,8 +16,8 @@ const FetchingData = () => {
   }
   return (
     <>
-      {posts.length && (
-        posts.map((post) => {
+      {data.posts && (
+        data.map((post) => {
           return (
             <div key={post.id}>
               <p>{post.title}</p>

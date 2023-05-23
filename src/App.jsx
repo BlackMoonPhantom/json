@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import { FetchingData } from './Components/FetchingData';
+import FetchingData  from './Components/FetchingData';
 import PostingData  from './Components/PostingData';
 
 

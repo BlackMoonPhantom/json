@@ -37,3 +37,4 @@ function useForm(initialValues, onSubmit) {
       handleReset
     };
   }
+  export default useForm;
