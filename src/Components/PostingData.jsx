@@ -7,7 +7,7 @@ function PostingData() {
     const initialValues = { title: '', body: '', userId: 1 };
   
     const onSubmit = (postData) => {
-      return fetch('/posts', {
+      return fetch('http://localhost:3000/posts', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(postData)
